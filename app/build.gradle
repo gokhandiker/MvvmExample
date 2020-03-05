@@ -56,7 +56,10 @@ dependencies {
     implementation "org.jetbrains.anko:anko-commons:$anko_version"
 
 
-    // Koin
+
+    // Koin for Android
+    implementation "org.koin:koin-android:$koin_version"
+    // or Koin for view model features
     implementation "org.koin:koin-android-viewmodel:$koin_version"
 
     //Moshi
